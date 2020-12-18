@@ -35,7 +35,7 @@ div#app {
   animation: scanlines 1s linear infinite;
 }
  
-div#hyper-heading {
+h1#hyper-heading {
   font-size: 10vw; /* 20% screen filling */
   font-weight: 900; /* The super-bold weight */
   font-weight: bold;
