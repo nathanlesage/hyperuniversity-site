@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+}
+ 
+body, html {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: radial-gradient(circle, #112, #000);
+  font-family: Roboto, sans-serif;
+  font-weight: 300; /* Default: A thin font. The rest will have weights of 400 and 900 */
+}
+ 
+abbr {
+  position: relative;
+  cursor: default;
+}
+ 
+abbr:hover::before {
+  display: block;
+  background-color: rgba(0, 255, 255, 0.8);
+  content: attr(title);
+  position: absolute;
+  left: 0;
+  top: 100%;
+  box-shadow: 4px 4px magenta;
+  padding: 4px;
+}
+ 
+div#app {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  animation: scanlines 1s linear infinite;
+}
+ 
+div#hyper-heading {
+  font-size: 10vw; /* 20% screen filling */
+  font-weight: 900; /* The super-bold weight */
+  font-weight: bold;
+  text-align: center;
+  color: rgb(224, 222, 192);
+  mix-blend-mode: difference; /* Blend into the scanlines in the background */
+  text-shadow: -5px -5px rgba(255, 0, 255, 0.5), 5px 5px rgba(0, 255, 255, 0.5);
+  animation: glitch 14s linear infinite;
+}
+ 
+div#hyper-subtitle {
+  font-size: 2vw;
+  font-weight: 400; /* The 400er font we import */
+  mix-blend-mode: difference;
+  transform: skewX(-20deg);
+  text-transform: uppercase;
+  letter-spacing: 0.5vw;
+  word-spacing: 1vw;
+  color: rgb(86, 132, 146);
+  text-align: center;
+}
+ 
+div#hyper-about {
+  width: 80vw;
+  line-height: 1.5em;
+  columns: 1;
+  margin: 0 auto;
+  margin-bottom: 10vh; /* A little bit of margin to the bottom */
+  padding: 20px;
+  margin-top: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: -5px 5px rgba(255, 0, 255, 0.5), 5px -5px rgba(0, 255, 255, 0.5);
+}
+ 
+@media (min-width: 1200px) {
+  div#hyper-about {
+    columns: 3;
+  }
+}
+ 
+@media (min-width: 1600px) {
+  div#hyper-about {
+    columns: 5;
+  }
+}
+ 
+div#hyper-about a {
+  color: #333;
+  background-color: #eef;
+  text-decoration: none;
+  box-shadow: 2px 2px rgba(255, 0, 255, 0.5), -2px -2px rgba(0, 255, 255, 0.5);
+  transition: 0.2s box-shadow ease;
+}
+ 
+div#hyper-about a:hover {
+  background-color: #aae;
+  box-shadow: -4px -4px rgba(255, 0, 255, 0.5), 4px 4px rgba(0, 255, 255, 0.5);
+}
+ 
+div #hyper-about a.block {
+  display: inline-block;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 5px;
+}
+ 
+/* KEYFRAMES ANIMATIONS */
+ 
+@keyframes glitch {
+  0.6% { transform: skewX(0deg); }
+  1% { transform: skewX(120deg); }
+  1.4% { transform: skewX(0deg); }
+  57.6% { transform: skewX(0deg); }
+  58% { transform: skewX(120deg); }
+  58.4% { transform: skewX(0deg); }
+  60.6% { transform: skewX(0deg); }
+  61% { transform: skewX(-120deg); }
+  61.4% { transform: skewX(0deg); }
+}
+ 
+@keyframes scanlines {
+    0% { background: repeating-linear-gradient(transparent 0px, transparent 10px, rgb(34, 41, 40) 12px, transparent 14px, transparent 14px); }
+   10% { background: repeating-linear-gradient(transparent 0px, transparent  9px, rgb(34, 41, 40) 11px, transparent 13px, transparent 14px); }
+   20% { background: repeating-linear-gradient(transparent 0px, transparent  8px, rgb(34, 41, 40) 10px, transparent 12px, transparent 14px); }
+   30% { background: repeating-linear-gradient(transparent 0px, transparent  7px, rgb(34, 41, 40)  9px, transparent 11px, transparent 14px); }
+   40% { background: repeating-linear-gradient(transparent 0px, transparent  6px, rgb(34, 41, 40)  8px, transparent 10px, transparent 14px); }
+   50% { background: repeating-linear-gradient(transparent 0px, transparent  5px, rgb(34, 41, 40)  7px, transparent  9px, transparent 14px); }
+   60% { background: repeating-linear-gradient(transparent 0px, transparent  4px, rgb(34, 41, 40)  6px, transparent  8px, transparent 14px); }
+   70% { background: repeating-linear-gradient(transparent 0px, transparent  3px, rgb(34, 41, 40)  5px, transparent  7px, transparent 14px); }
+   80% { background: repeating-linear-gradient(transparent 0px, transparent  2px, rgb(34, 41, 40)  4px, transparent  6px, transparent 14px); }
+   90% { background: repeating-linear-gradient(transparent 0px, transparent  1px, rgb(34, 41, 40)  3px, transparent  5px, transparent 14px); }
+  100% { background: repeating-linear-gradient(transparent 0px, transparent  0px, rgb(34, 41, 40)  2px, transparent  4px, transparent 14px); }
+}
