@@ -81,8 +81,17 @@ div#hyper-about {
     columns: 5;
   }
 }
+
+a {
+  color: rgba(255, 0, 255, 1);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgba(0, 255, 255, 1);
+}
  
-div#hyper-about a {
+a.fancy {
   color: #333;
   background-color: #eef;
   text-decoration: none;
@@ -90,9 +99,13 @@ div#hyper-about a {
   transition: 0.2s box-shadow ease;
 }
  
-div#hyper-about a:hover {
+a.fancy:hover {
   background-color: #aae;
   box-shadow: -4px -4px rgba(255, 0, 255, 0.5), 4px 4px rgba(0, 255, 255, 0.5);
+}
+
+dl dt {
+  margin-top: 15px;
 }
  
 div #hyper-about a.block {
