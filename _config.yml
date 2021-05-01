@@ -1,0 +1,31 @@
+# Jekyll master configuration
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate
+
+# Global variables, can be accessed using site.
+url: https://www.hyperuniversity.org
+title: "HYPERUNIVERSITY"
+locale: en-GB
+
+
+# Set a better permalink for the posts
+# NOTE: This setting requires that ALL static pages MUST have a permalink set
+# otherwise those pages would show up, e.g., as /post/publications!!
+permalink: /post/:title:output_ext
+
+# Instruct Jekyll to include our .htaccess-file
+include: [".htaccess"]
+
+# Set Front matter default variables,
+# which can be overridden on a case-by-case basis.
+defaults:
+  - scope:
+      path: "" # No path scope
+    values:
+      # All pages use the default layout
+      layout: default
+      # This is the default meta description
+      description: "HYPERUNIVERSITY - Taking the Future to the University"

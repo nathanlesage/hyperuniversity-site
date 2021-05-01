@@ -1,0 +1,82 @@
+# This YAML file contains all resources to be displayed on the main page.
+# Each list item can contain the following properties:
+  # link: The full link to the resource
+  # title: The title that will be used to link to the resource
+  # description: A short (or medium) description about the resource
+  # author: The author name (can be also "Author A and Author B") - will be displayed after the "by"
+  # author_link: A link to the homepage of the author(s) themselves. NOTE: This property is OPTIONAL!
+- link: https://maehr.github.io/awesome-digital-history/
+  title: Awesome Digital History (list)
+  description: |
+    Finding aids for textual and multimedia primary sources with a focus on the western hemisphere and the
+      19th and 20th centuries. Courses and learning tools to explore history digitally.
+  author: Moritz Mähr
+  author_link: https://moritzmaehr.ch/
+# =============================================================================
+- link: https://github.com/writing-resources/awesome-scientific-writing
+  title: Awesome Scientific Writing (list)
+  description: |
+    Scientific writing can extend beyond LaTeX, made possible by formats, such as Markdown
+      (and its many flavours), reStructuredText and Jupyter notebooks.
+  author: Ashwin Vishnu
+  author_link: https://ashwinvis.github.io/
+# =============================================================================
+- link: https://www.youtube.com/watch?v=J86Pm62XM_Q
+  title: Setting Up a Scholarly Writing Environment With Markdown, VSCodium and pandoc (video)
+  description: |
+    Introduction to Markdown, YAML frontmatter, VSCodium vs. MS Visual Studio Code, Extensions
+      for VSCodium: Markdown Preview Enhanced, Pandoc Citer and Live Server; pandoc, pandoc-citeproc
+      and pandoc-crossref for footnotes, citations and (cross) references; export of BibLaTeX from
+      Zotero, Citation Style Language (CSL); entr for watching changes while writing
+  author: Axel Dürkop
+  author_link: https://axel-duerkop.de/en/
+# =============================================================================
+- link: https://programminghistorian.org/en/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown
+  title: Sustainable Authorship in Plain Text using Pandoc and Markdown (guide)
+  description: |
+    In this tutorial, you will first learn the basics of Markdown—an easy to read and write
+      markup syntax for plain text—as well as Pandoc, a command line tool that converts plain
+      text into a number of beautifully formatted file types: PDF, .docx, HTML, LaTeX, slide
+      decks, and more.
+  author: Dennis Tenen and Grant Wythoff
+# =============================================================================
+- link: https://www.youtube.com/playlist?list=PLXt-tu7G1H3vlRXLmGyOzeAp7ZKDK0pty
+  title: Getting Started with Zotero 4 (playlist)
+  description: |
+    This video tutorial will take you through the steps of installing and using the citation
+      management program Zotero (version 4). If you're writing a paper with more than a few
+      sources or putting together a thesis, investing the time into learning how to use Zotero
+      will save you hours of headaches and heartaches down the road.
+  author: Nicholas Cifuentes-Goodbody
+# =============================================================================
+- link: https://www.youtube.com/playlist?list=PLXt-tu7G1H3tLeZgbbUmYjE0_kvbjA4YU
+  title: "Markdown: Academic Writing in Plain Text (playlist)"
+  description: |
+    In this video tutorial, I show you the advantages of academic writing in Markdown.
+  author: Nicholas Cifuentes-Goodbody
+# =============================================================================
+- link: https://zettelkasten.de/posts/create-zettel-from-reading-notes/
+  title: Create Zettel from Reading Notes According to the Principle of Atomicity
+  description: |
+    A tutorial on writing Zettelkasten notes from zettelkasten.de
+  author: Christian Tietze
+# =============================================================================
+- link: https://www.youtube.com/watch?v=PBRmtABqC9U
+  title: Git for Academics (video)
+  description: |
+     A lot of people have asked me in recent weeks how git works. Git is a version control
+      system (VCS) that was originally designed only with software developers in mind. However,
+      git contains unique features that researchers in the arts and humanities can also make use of.
+  author: Hendrik Erz
+  author_link: https://www.hendrik-erz.de/
+# =============================================================================
+- link: https://www.justinclark.xyz/post/my-workflow/
+  title: My Workflow (blog post)
+  description: |
+    Following some discussions over on the Zettlr forum I’m attempting to write up my workflow in
+      some kind of coherent fashion. In the spirit of “working with the garage door open” I’m using
+      a task that I’m working on right now. In stepping through the process, then my workflow will
+      become clearer (to me, as well as you). As the genesis of this was to expand on how I use
+      Zettlr, I hope that this will also be adequately addressed and prove helpful for others.
+  author: Justin Clark
+  author_link: https://www.justinclark.xyz/

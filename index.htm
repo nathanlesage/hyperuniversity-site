@@ -1,158 +1,47 @@
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HYPERUNIVERSITY</title>
-
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="app.css">
-</head>
-<body>
-  <div id="app">
-    <h1 id="hyper-heading">HYPERUNIVERSITY</h1>
-    <div id="hyper-subtitle">Taking the Future to the University</div>
-    <div id="hyper-about">
-      <p>
-        Academia depends on the circulation and exchange of ideas, but the tools we currently use have not been made
-				with the needs of researchers in mind. The lack of collaborative tools, tedious publishing processes and friction
-				are just a few of the problems this entails. Tools to improve our scholarly workflows already exist, but remain
-				opaque for many of us, as academic craftsmanship is no priority in most university curricula.
-			</p>
-			<p>
-				HYPERUNIVERSITY aims to bridge the incomplete digital turn in academia from solid analog techniques to digital
-				ones, fit for the 21st century. HYPERUNIVERSITY provides curated resources for contemporary digital tools and
-				training in computer skills to students and scholars in the humanities. HYPERUNIVERSITY delivers sustainable tool
-				chains for scholarly work, from idea to publication, for authors and publishers. HYPERUNIVERSITY teaches note
-				taking, text editing, reference management, layouting, and collaborative version control. HYPERUNIVERSITY
-				contributes to public debates about research, editing, and digitized publishing practices.
-			</p>
-			<p>
-				The working group HYPERUNIVERSITY consists of researchers from the humanities, social, and computer sciences.
-				We learned how to use the free resources that others have generously shared on the web in order to reap the
-				benefits of contemporary tooling. We want to give back what we have learned and encourage you to join us in this
-				lifelong endeavour for a better and open world.
-			</p>
-      
-      <h2>Resources</h2>
-      
-      <p>
-        Here is an initial list of resources that we have compiled from the web. Feel free to stroll around those
-        pages and see what might be useful for you!
-      </p>
-      
-      <dl>
-        <dt>
-          <a class="fancy" href="https://maehr.github.io/awesome-digital-history/" target="_blank" rel="nofollow">
-            Awesome Digital History (list)
-          </a>
-        </dt>
-        <dd>
-          Finding aids for textual and multimedia primary sources with a focus on the western hemisphere and the
-          19th and 20th centuries. Courses and learning tools to explore history digitally.
-          <br><em>— by <a href="https://moritzmaehr.ch/" target="_blank">Moritz Mähr</a></em>
-        </dd>
-        
-        <dt>
-          <a class="fancy" href="https://maehr.github.io/awesome-digital-history/" target="_blank" rel="nofollow">
-            Awesome Scientific Writing (list)
-          </a>
-        </dt>
-        <dd>
-          Scientific writing can extend beyond LaTeX, made possible by formats, such as Markdown
-          (and its many flavours), reStructuredText and Jupyter notebooks.
-          <br><em>— by <a href="https://ashwinvis.github.io/" target="_blank">Ashwin Vishnu</a></em>
-        </dd>
-        
-        <dt>
-          <a class="fancy" href="https://www.youtube.com/watch?v=J86Pm62XM_Q" target="_blank" rel="nofollow">
-            Setting Up a Scholarly Writing Environment With Markdown, VSCodium and pandoc (video)
-          </a>
-        </dt>
-        <dd>
-          Introduction to Markdown, YAML frontmatter, VSCodium vs. MS Visual Studio Code, Extensions
-          for VSCodium: Markdown Preview Enhanced, Pandoc Citer and Live Server; pandoc, pandoc-citeproc
-          and pandoc-crossref for footnotes, citations and (cross) references; export of BibLaTeX from
-          Zotero, Citation Style Language (CSL); entr for watching changes while writing
-          <br><em>— by <a href="https://axel-duerkop.de/en/" target="_blank">Axel Dürkop</a></em>
-        </dd>
-        
-        <dt>
-          <a class="fancy" href="https://programminghistorian.org/en/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown" target="_blank" rel="nofollow">
-            Sustainable Authorship in Plain Text using Pandoc and Markdown (guide)
-          </a>
-        </dt>
-        <dd>
-          In this tutorial, you will first learn the basics of Markdown—an easy to read and write
-          markup syntax for plain text—as well as Pandoc, a command line tool that converts plain
-          text into a number of beautifully formatted file types: PDF, .docx, HTML, LaTeX, slide
-          decks, and more.
-          <br><em>— by Dennis Tenen and Grant Wythoff</em>
-        </dd>
-        
-        <dt>
-          <a class="fancy" href="https://www.youtube.com/playlist?list=PLXt-tu7G1H3vlRXLmGyOzeAp7ZKDK0pty" target="_blank" rel="nofollow">
-            Getting Started with Zotero 4 (playlist)
-          </a>
-        </dt>
-
-        <dd>
-          This video tutorial will take you through the steps of installing and using the citation
-          management program Zotero (version 4). If you're writing a paper with more than a few
-          sources or putting together a thesis, investing the time into learning how to use Zotero
-          will save you hours of headaches and heartaches down the road.
-          <br><em>— by Nicholas Cifuentes-Goodbody</em>
-        </dd>
-        
-        <dt>
-          <a class="fancy" href="https://www.youtube.com/playlist?list=PLXt-tu7G1H3tLeZgbbUmYjE0_kvbjA4YU" target="_blank" rel="nofollow">
-            Markdown: Academic Writing in Plain Text (playlist)
-          </a>
-        </dt>
-        <dd>
-          In this video tutorial, I show you the advantages of academic writing in Markdown.
-          <br><em>— by Nicholas Cifuentes-Goodbody</em>
-        </dd>
-        
-        <dt>
-          <a class="fancy" href="https://zettelkasten.de/posts/create-zettel-from-reading-notes/" target="_blank" rel="nofollow">
-            Create Zettel from Reading Notes According to the Principle of Atomicity
-          </a>
-        </dt>
-        <dd>
-          A tutorial on writing Zettelkasten notes from zettelkasten.de
-          <br><em>— by Christian Tietze</em>
-        </dd>
-        
-        <dt>
-          <a class="fancy" href="https://www.youtube.com/watch?v=PBRmtABqC9U" target="_blank" rel="nofollow">
-            Git for Academics (video)
-          </a>
-        </dt>
-        <dd>
-          A lot of people have asked me in recent weeks how git works. Git is a version control
-          system (VCS) that was originally designed only with software developers in mind. However,
-          git contains unique features that researchers in the arts and humanities can also make use of.
-          <br><em>— by <a href="https://www.hendrik-erz.de/" target="_blank">Hendrik Erz</a></em>
-        </dd>
-        
-        <dt>
-          <a class="fancy" href="https://www.youtube.com/watch?v=PBRmtABqC9U" target="_blank" rel="nofollow">
-            My Workflow (blog post)
-          </a>
-        </dt>
-        <dd>
-          Following some discussions over on the Zettlr forum I’m attempting to write up my workflow in
-          some kind of coherent fashion. In the spirit of “working with the garage door open” I’m using
-          a task that I’m working on right now. In stepping through the process, then my workflow will
-          become clearer (to me, as well as you). As the genesis of this was to expand on how I use
-          Zettlr, I hope that this will also be adequately addressed and prove helpful for others.
-          <br><em>— by <a href="https://www.justinclark.xyz/" target="_blank">Justin Clark</a></em>
-        </dd>
-      </dl>
-    </div>
-  </div>
-</body>
-</html>
-
+---
+---
+<h1 id="hyper-heading">HYPERUNIVERSITY</h1>
+<div id="hyper-subtitle">Taking the Future to the University</div>
+<div id="hyper-about">
+  <p>
+    Academia depends on the circulation and exchange of ideas, but the tools we currently use have not been made
+    with the needs of researchers in mind. The lack of collaborative tools, tedious publishing processes and friction
+    are just a few of the problems this entails. Tools to improve our scholarly workflows already exist, but remain
+    opaque for many of us, as academic craftsmanship is no priority in most university curricula.
+  </p>
+  <p>
+    HYPERUNIVERSITY aims to bridge the incomplete digital turn in academia from solid analog techniques to digital
+    ones, fit for the 21st century. HYPERUNIVERSITY provides curated resources for contemporary digital tools and
+    training in computer skills to students and scholars in the humanities. HYPERUNIVERSITY delivers sustainable tool
+    chains for scholarly work, from idea to publication, for authors and publishers. HYPERUNIVERSITY teaches note
+    taking, text editing, reference management, layouting, and collaborative version control. HYPERUNIVERSITY
+    contributes to public debates about research, editing, and digitized publishing practices.
+  </p>
+  <p>
+    The working group HYPERUNIVERSITY consists of researchers from the humanities, social, and computer sciences.
+    We learned how to use the free resources that others have generously shared on the web in order to reap the
+    benefits of contemporary tooling. We want to give back what we have learned and encourage you to join us in this
+    lifelong endeavour for a better and open world.
+  </p>
+  
+  <h2>Resources</h2>
+  
+  <p>
+    Here is an initial list of resources that we have compiled from the web. Feel free to stroll around those
+    pages and see what might be useful for you!
+  </p>
+  
+  <dl>
+    {% for item in site.data.resources %}
+    <dt>
+      <a class="fancy" href="{{ item.link }}" target="_blank" rel="nofollow">
+       {{ item.title }} 
+      </a>
+    </dt>
+    <dd>
+      {{ item.description }}
+      <br><em>— by {% if item.author_link %}<a href="{{ item.author_link }}" target="_blank">{{ item.author }}</a>{% else %}{{ item.author }}{% endif %}</em>
+    </dd>
+    {% endfor %}
+  </dl>
+</div>
