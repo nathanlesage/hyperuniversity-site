@@ -15,7 +15,7 @@ jobs:
     - uses: actions/checkout@v1
     - uses: ruby/setup-ruby@v1
       with:
-        ruby-version: 3.0
+        ruby-version: 2.7
         bundler-cache: true # runs 'bundle install' and caches installed gems automatically
     # Now we can build the thing
     - name: Build the page
