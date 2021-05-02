@@ -38,6 +38,9 @@ div#app {
 h1#hyper-heading {
   font-size: 10vw; /* 20% screen filling */
   font-weight: 900; /* The super-bold weight */
+  /* Fix the margins of the heading to make it less spacious */
+  margin-top: 10px;
+  margin-bottom: 0px;
   font-weight: bold;
   text-align: center;
   color: rgb(224, 222, 192);
