@@ -87,3 +87,12 @@
     A "living document" containing a lot of useful links for digital workflows, divided into four
       modules. German only.
   author: Gertraud Koch, Roman Knipping-Sorokin, Natalie Isaak, and others (University of Hamburg)
+# =============================================================================
+- link: https://plain-text.co/
+  title: The Plain Person’s Guide to Plain Text Social Science
+  description: |
+    Kieran Healy (Duke University) has written a long introduction on how one can use plain text
+      tools as a social scientist. He himself focuses on Markdown and R with emacs, utilizing some
+      older mechanisms such as makefiles to automate his workflow.
+  author: Kieran Healy
+  author_link: http://kieranhealy.org/
